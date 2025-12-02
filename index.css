@@ -1,0 +1,88 @@
+/* MAIN CONTAINER */
+.container {
+    height: 350px;
+    width: 200px;
+    border: 2px solid rgb(101, 13, 13);
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(220, 231, 226, 0.523);
+    position: relative;
+    top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* BODY BACKGROUND */
+body {
+    background-color: rgba(54, 86, 93, 0.478);
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/2025-tesla-model-x-6734b3d48460d.jpg?crop=0.702xw:0.633xh;0.149xw,0.179xh&resize=2048:*");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+/* BUTTON */
+button {
+    cursor: pointer;
+    padding: 10px 6px;
+    color: azure;
+    background-color: rgb(55, 133, 172);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* HEADER (SMALL + FIXED) */
+.header-container {
+    background-color: rgb(76, 139, 162);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    /* reduced size */
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* LOGO SMALL */
+.logo {
+    height: 25px;
+    /* smaller logo */
+    width: auto;
+    padding: 5px;
+}
+
+/* NAV ITEMS */
+.head-items {
+    display: flex;
+    gap: 20px;
+}
+
+.head-items li {
+    list-style-type: none;
+    /* fixed error */
+    font-size: 20px;
+}
+
+.head-items a {
+    text-decoration: none;
+    color: rgb(10, 19, 26);
+    font-size: 20px;
+}
+.welcome-text {
+    font-size: 20px;
+    color: rgb(4, 6, 14);
+    font-weight: bold;
+    position: absolute;
+    right: 20px;      /* move to right corner */
+    bottom: 20px;    /* move below inside bar */
+}
