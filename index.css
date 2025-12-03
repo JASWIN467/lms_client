@@ -77,12 +77,55 @@ button {
     text-decoration: none;
     color: rgb(10, 19, 26);
     font-size: 20px;
+    transition: 5s;
 }
+
+head-items a:hover {
+    letter-spacing: 0;
+    color: rgb(77, 68, 52);
+}
+
+
 .welcome-text {
     font-size: 20px;
     color: rgb(4, 6, 14);
     font-weight: bold;
     position: absolute;
-    right: 20px;      /* move to right corner */
-    bottom: 20px;    /* move below inside bar */
+    right: 20px;
+    /* move to right corner */
+    bottom: 20px;
+    /* move below inside bar */
+}
+
+.body-content {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 370px;
+    width: 330px;
+    background-image: url("https://i.guim.co.uk/img/media/b10f15a0955d23826586810847cc3431e36616f1/0_508_2065_1238/master/2065.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=b6b0e2df577f6dc993d68b672483ef58");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    transition: transform 2s ease-out;
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 500px 200px 400px;
+    grid-template-rows: 500px 200px;
+    gap: 20px;
+}
+
+.box:hover {
+    background-color: rgba(185, 184, 217, 0.815);
+    transform: scale(1.1);
+    border-radius: 50%;
+    transform: rotate(360deg) scale(0.5);
 }
