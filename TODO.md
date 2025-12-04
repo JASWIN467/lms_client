@@ -1,0 +1,2 @@
+- [x] Update ASSET/javascript/sc.html to include calculator UI: display input and buttons for numbers, operations, equals, and clear.
+- [x] Correct script src from "javascript01.js" to "index.js" in sc.html.
